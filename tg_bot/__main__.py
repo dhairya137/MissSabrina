@@ -33,7 +33,7 @@ I'm here to manage your groups!
 
 Click Help button to find out more about how to use me to my full potential. 
 
-Join Support Chat ( @LordVoldemordSupport ) if you need any support or help 
+Join Support Chat ( @LordVoldemortSupport ) if you need any support or help 
 
 Made by @Dp137 """
 
@@ -53,7 +53,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll of the following commands  / or ! can  be used...\n")
 
-DONATE_STRING = """Hey you can Donate to [Ayan Ansari](t.me/TechnoAyanOfficial) for better server """
+DONATE_STRING = """Hey you can Donate to [Ayan Ansari](t.me/Dp137) for better server """
 
 
 IMPORTED = {}
@@ -164,7 +164,7 @@ def send_start(bot, update):
                              url="https://t.me/MissSabrina_bot?startgroup=true"), InlineKeyboardButton(text="❓ Help", callback_data="help_back")
         ]]
     keyboard += [[
-        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/LordVoldemordSupport")
+        InlineKeyboardButton(text=tld(chat.id, '👥 Support Group'), url="https://t.me/LordVoldemortSupport")
     ]]
 
     update.effective_message.reply_text(
